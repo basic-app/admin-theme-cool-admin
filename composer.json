@@ -1,4 +1,13 @@
 {
-  "name": "basic-app/admin-theme-cool-admin",
-  "license": "MIT"
+    "name": "basic-app/admin-theme-cool-admin",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "BasicApp\\AdminThemeCoolAdmin\\": "src/"
+        }
+    },
+    "require": {
+        "basic-app/admin-theme": "*",
+        "basic-app/publisher": "*"
+    }
 }
