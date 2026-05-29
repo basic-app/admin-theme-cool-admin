@@ -26,7 +26,7 @@
 </head>
 <body class="theme-2026 auth-page">
 <main id="auth-form" class="login-wrap">
-    <div class="login-content">
+    <div class="login-content" style="min-width: 320px;">
         <a href="<?= site_url('admin');?>" class="auth-brand" aria-label="<?= lang('Admin home');?>">
             <span class="logo-mark" aria-hidden="true">BA</span>
             <span class="logo-text">BasicApp</span>
